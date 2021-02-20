@@ -12,6 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            Spacer()
             pipelineOne.circleView
                 .frame(height: 200, alignment: .center)
             HStack {
@@ -25,9 +26,13 @@ struct ContentView: View {
                 }
                 .disabled(!pipelineOne.isRunning)
             }
-            HStack {
-                MyShape(radius: 50, degrees: pipelineOne.circleView.radius).frame(alignment: .center)
-                MyShape(radius: 50, degrees: pipelineOne.circleView.radius + 25).frame(alignment: .center)
+            ZStack {
+                MyShape(radius: 70, degrees: pipelineOne.circleView.radius).frame(alignment: .center).foregroundColor(.purple)
+                MyShape(radius: 60, degrees: pipelineOne.circleView.radius).frame(alignment: .center).foregroundColor(.blue)
+                MyShape(radius: 50, degrees: pipelineOne.circleView.radius).frame(alignment: .center).foregroundColor(.green)
+                MyShape(radius: 40, degrees: pipelineOne.circleView.radius).frame(alignment: .center).foregroundColor(.yellow)
+                MyShape(radius: 30, degrees: pipelineOne.circleView.radius).frame(alignment: .center).foregroundColor(.orange)
+                MyShape(radius: 20, degrees: pipelineOne.circleView.radius).frame(alignment: .center).foregroundColor(.red)
             }
         }
     }

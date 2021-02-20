@@ -15,7 +15,7 @@ struct CircleView: View {
     var body: some View {
         ZStack {
             VStack {
-                VStack {
+                HStack {
                     Text("Radius: \(radius)")
                     Text("Area: \(area)")
                     Text("Circumference: \(circumference)")

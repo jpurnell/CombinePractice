@@ -26,10 +26,10 @@ struct MyShape : Shape {
     func path(in rect: CGRect) -> Path {
         var p = Path()
 
-        p.addArc(center: CGPoint(x: radius * 2, y: radius),
+        p.addArc(center: CGPoint(x: 100, y: 100),
                  radius: CGFloat(radius),
-                 startAngle: .degrees(0),
-                 endAngle: .degrees((degrees * 3.6)),
+                 startAngle: .degrees(-90),
+                 endAngle: .degrees(-90 + (degrees * 3.6)),
                  clockwise: false
         )
         return p.strokedPath(.init(lineWidth: 3)
