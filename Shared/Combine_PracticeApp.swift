@@ -11,7 +11,7 @@ import SwiftUI
 struct Combine_PracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(NumberGenerator(), { x in x + 1}, { y in y * 1})
+            ContentView()
         }
     }
 }

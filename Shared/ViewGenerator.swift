@@ -12,6 +12,7 @@ class ViewGenerator: ObservableObject {
     private var pipeline: CirclePipeline
     @Published var circleView: CircleView = CircleView()
     @Published var isRunning = false
+    @Published private(set) var circleviewInit: (Double, Double, Double) = (0, 0, 0)
     init() {
         pipeline = CirclePipeline()
         pipeline.$radius
@@ -22,9 +23,12 @@ class ViewGenerator: ObservableObject {
     
     private func connect() {
         pipeline = CirclePipeline()
-        pipeline.$radius
-            .dropFirst()
-            .map({ r in CircleView(radius: r)})
+        Publishers.Zip3(pipeline.$radius.dropFirst(),
+                         pipeline.$area.dropFirst(),
+                         pipeline.$circumference.dropFirst()
+        )
+            .map{ radius, area, circumference in
+                CircleView(radius: radius, area: area, circumference: circumference)}
             .assign(to: &$circleView)
         pipeline.start()
         isRunning = true

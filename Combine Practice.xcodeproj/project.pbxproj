@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7225BB2225E17B2D0009E92F /* ViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7225BB2125E17B2D0009E92F /* ViewGenerator.swift */; };
 		7225BB2325E17B2D0009E92F /* ViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7225BB2125E17B2D0009E92F /* ViewGenerator.swift */; };
+		7225BB2725E190590009E92F /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7225BB2625E190590009E92F /* Arc.swift */; };
+		7225BB2825E190590009E92F /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7225BB2625E190590009E92F /* Arc.swift */; };
 		7288A1CC25DEB7B800FF8BA4 /* Combine_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1B925DEB7B500FF8BA4 /* Combine_PracticeApp.swift */; };
 		7288A1CD25DEB7B800FF8BA4 /* Combine_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1B925DEB7B500FF8BA4 /* Combine_PracticeApp.swift */; };
 		7288A1CE25DEB7B800FF8BA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1BA25DEB7B500FF8BA4 /* ContentView.swift */; };
@@ -27,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		7225BB2125E17B2D0009E92F /* ViewGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGenerator.swift; sourceTree = "<group>"; };
+		7225BB2625E190590009E92F /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
 		7288A1B925DEB7B500FF8BA4 /* Combine_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_PracticeApp.swift; sourceTree = "<group>"; };
 		7288A1BA25DEB7B500FF8BA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7288A1BB25DEB7B800FF8BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +81,7 @@
 				7288A1E125DEBBAC00FF8BA4 /* PipelineManager.swift */,
 				7288A1E625DF168800FF8BA4 /* CirclePipeline.swift */,
 				7288A1EB25DF2A3D00FF8BA4 /* CircleView.swift */,
+				7225BB2625E190590009E92F /* Arc.swift */,
 				7225BB2125E17B2D0009E92F /* ViewGenerator.swift */,
 				7288A1BB25DEB7B800FF8BA4 /* Assets.xcassets */,
 			);
@@ -209,6 +213,7 @@
 			files = (
 				7288A1EC25DF2A3D00FF8BA4 /* CircleView.swift in Sources */,
 				7288A1E725DF168800FF8BA4 /* CirclePipeline.swift in Sources */,
+				7225BB2725E190590009E92F /* Arc.swift in Sources */,
 				7288A1CE25DEB7B800FF8BA4 /* ContentView.swift in Sources */,
 				7288A1E225DEBBAC00FF8BA4 /* PipelineManager.swift in Sources */,
 				7225BB2225E17B2D0009E92F /* ViewGenerator.swift in Sources */,
@@ -223,6 +228,7 @@
 			files = (
 				7288A1ED25DF2A3D00FF8BA4 /* CircleView.swift in Sources */,
 				7288A1E825DF168800FF8BA4 /* CirclePipeline.swift in Sources */,
+				7225BB2825E190590009E92F /* Arc.swift in Sources */,
 				7288A1CF25DEB7B800FF8BA4 /* ContentView.swift in Sources */,
 				7288A1E325DEBBAC00FF8BA4 /* PipelineManager.swift in Sources */,
 				7225BB2325E17B2D0009E92F /* ViewGenerator.swift in Sources */,

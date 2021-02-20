@@ -9,13 +9,26 @@ import SwiftUI
 
 struct CircleView: View {
     var radius = 0.0
+    var area = 0.0
+    var circumference = 0.0
     
     var body: some View {
         ZStack {
-            HStack {
-                Text("♥︎").font(.system(size: CGFloat(radius * 1.0))).foregroundColor(.red).opacity(radius / 100).frame(width: CGFloat(radius) * 1.0, height: CGFloat(radius) * 1.0, alignment: .center)
-                Text("♥︎").font(.system(size: CGFloat(radius * 1.0))).foregroundColor(.red).opacity(radius / 100).frame(width: CGFloat(radius) * 1.0, height: CGFloat(radius) * 1.0, alignment: .center)
-                Text("♥︎").font(.system(size: CGFloat(radius * 1.0))).foregroundColor(.red).opacity(radius / 100).frame(width: CGFloat(radius) * 1.0, height: CGFloat(radius) * 1.0, alignment: .center)
+            VStack {
+                VStack {
+                    Text("Radius: \(radius)")
+                    Text("Area: \(area)")
+                    Text("Circumference: \(circumference)")
+                }
+                HStack {
+                    Text("♥︎").font(.system(size: CGFloat(radius * 1.0))).foregroundColor(.red).opacity(radius / 100).frame(width: CGFloat(radius) * 1.0, height: CGFloat(radius) * 1.0, alignment: .center)
+                    ZStack {
+                        Text("♥︎").font(.system(size: CGFloat(radius * 1.0))).foregroundColor(.red).opacity(radius / 100).frame(width: CGFloat(radius) * 1.0, height: CGFloat(radius) * 1.0, alignment: .center)
+                        MyShape(radius: radius, degrees: radius)
+                    }
+
+                    Text("♥︎").font(.system(size: CGFloat(radius * 1.0))).foregroundColor(.red).opacity(radius / 100).frame(width: CGFloat(radius) * 1.0, height: CGFloat(radius) * 1.0, alignment: .center)
+                }.frame(height: 200, alignment: .center)
             }
         }
         
