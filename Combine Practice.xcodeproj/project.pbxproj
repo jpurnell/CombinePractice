@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7225BB2225E17B2D0009E92F /* ViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7225BB2125E17B2D0009E92F /* ViewGenerator.swift */; };
+		7225BB2325E17B2D0009E92F /* ViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7225BB2125E17B2D0009E92F /* ViewGenerator.swift */; };
 		7288A1CC25DEB7B800FF8BA4 /* Combine_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1B925DEB7B500FF8BA4 /* Combine_PracticeApp.swift */; };
 		7288A1CD25DEB7B800FF8BA4 /* Combine_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1B925DEB7B500FF8BA4 /* Combine_PracticeApp.swift */; };
 		7288A1CE25DEB7B800FF8BA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1BA25DEB7B500FF8BA4 /* ContentView.swift */; };
 		7288A1CF25DEB7B800FF8BA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1BA25DEB7B500FF8BA4 /* ContentView.swift */; };
 		7288A1D025DEB7B800FF8BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7288A1BB25DEB7B800FF8BA4 /* Assets.xcassets */; };
 		7288A1D125DEB7B800FF8BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7288A1BB25DEB7B800FF8BA4 /* Assets.xcassets */; };
+		7288A1DD25DEB84E00FF8BA4 /* NumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1DC25DEB84E00FF8BA4 /* NumberGenerator.swift */; };
+		7288A1DE25DEB84E00FF8BA4 /* NumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1DC25DEB84E00FF8BA4 /* NumberGenerator.swift */; };
+		7288A1E225DEBBAC00FF8BA4 /* PipelineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1E125DEBBAC00FF8BA4 /* PipelineManager.swift */; };
+		7288A1E325DEBBAC00FF8BA4 /* PipelineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1E125DEBBAC00FF8BA4 /* PipelineManager.swift */; };
+		7288A1E725DF168800FF8BA4 /* CirclePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1E625DF168800FF8BA4 /* CirclePipeline.swift */; };
+		7288A1E825DF168800FF8BA4 /* CirclePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1E625DF168800FF8BA4 /* CirclePipeline.swift */; };
+		7288A1EC25DF2A3D00FF8BA4 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1EB25DF2A3D00FF8BA4 /* CircleView.swift */; };
+		7288A1ED25DF2A3D00FF8BA4 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A1EB25DF2A3D00FF8BA4 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7225BB2125E17B2D0009E92F /* ViewGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGenerator.swift; sourceTree = "<group>"; };
 		7288A1B925DEB7B500FF8BA4 /* Combine_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_PracticeApp.swift; sourceTree = "<group>"; };
 		7288A1BA25DEB7B500FF8BA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7288A1BB25DEB7B800FF8BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +35,10 @@
 		7288A1C825DEB7B800FF8BA4 /* Combine Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Combine Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7288A1CA25DEB7B800FF8BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7288A1CB25DEB7B800FF8BA4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7288A1DC25DEB84E00FF8BA4 /* NumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGenerator.swift; sourceTree = "<group>"; };
+		7288A1E125DEBBAC00FF8BA4 /* PipelineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipelineManager.swift; sourceTree = "<group>"; };
+		7288A1E625DF168800FF8BA4 /* CirclePipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePipeline.swift; sourceTree = "<group>"; };
+		7288A1EB25DF2A3D00FF8BA4 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +74,11 @@
 			children = (
 				7288A1B925DEB7B500FF8BA4 /* Combine_PracticeApp.swift */,
 				7288A1BA25DEB7B500FF8BA4 /* ContentView.swift */,
+				7288A1DC25DEB84E00FF8BA4 /* NumberGenerator.swift */,
+				7288A1E125DEBBAC00FF8BA4 /* PipelineManager.swift */,
+				7288A1E625DF168800FF8BA4 /* CirclePipeline.swift */,
+				7288A1EB25DF2A3D00FF8BA4 /* CircleView.swift */,
+				7225BB2125E17B2D0009E92F /* ViewGenerator.swift */,
 				7288A1BB25DEB7B800FF8BA4 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,7 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7288A1EC25DF2A3D00FF8BA4 /* CircleView.swift in Sources */,
+				7288A1E725DF168800FF8BA4 /* CirclePipeline.swift in Sources */,
 				7288A1CE25DEB7B800FF8BA4 /* ContentView.swift in Sources */,
+				7288A1E225DEBBAC00FF8BA4 /* PipelineManager.swift in Sources */,
+				7225BB2225E17B2D0009E92F /* ViewGenerator.swift in Sources */,
+				7288A1DD25DEB84E00FF8BA4 /* NumberGenerator.swift in Sources */,
 				7288A1CC25DEB7B800FF8BA4 /* Combine_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +221,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7288A1ED25DF2A3D00FF8BA4 /* CircleView.swift in Sources */,
+				7288A1E825DF168800FF8BA4 /* CirclePipeline.swift in Sources */,
 				7288A1CF25DEB7B800FF8BA4 /* ContentView.swift in Sources */,
+				7288A1E325DEBBAC00FF8BA4 /* PipelineManager.swift in Sources */,
+				7225BB2325E17B2D0009E92F /* ViewGenerator.swift in Sources */,
+				7288A1DE25DEB84E00FF8BA4 /* NumberGenerator.swift in Sources */,
 				7288A1CD25DEB7B800FF8BA4 /* Combine_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
